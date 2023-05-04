@@ -1,0 +1,36 @@
+._article {
+	margin-block-end: 2rem;
+	text-align: justify;
+}
+
+.article-thumbnail_ {
+	max-height: 10rem;
+	object-fit: cover;
+}
+
+.article-flex__ {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Featured Section / Featured Article */
+
+.__article-featured-section {
+	border-block-end: var(--border-shorthand);
+}
+
+._article-featured .article-featured-thumbnail_ {
+	max-height: 16.25rem;
+}
+
+._article-featured .article-date_ {
+	display: block;
+	margin-block-end: 1em;
+}
+
+/* Recent Section */
+
+._article-recent-section-title {
+	text-align: center;
+}

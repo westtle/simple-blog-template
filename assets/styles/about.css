@@ -1,0 +1,10 @@
+.__about-me-section {
+	text-align: justify;
+}
+
+._profile-picture {
+	border-radius: 50%;
+	width: 14.0625rem;
+	aspect-ratio: 1/1;
+	margin: 0 auto;
+}

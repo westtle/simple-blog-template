@@ -1,0 +1,37 @@
+._thumbnail {
+	max-height: 10rem;
+	object-fit: cover;
+}
+
+._title-date {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-block-end: var(--border-shorthand);
+}
+
+._image {
+	margin-block: 1em;
+}
+
+._quote {
+	border-inline-start: 0.125rem solid var(--border-color);
+	margin-inline: 0;
+	padding-inline-start: 0.6875rem;
+	padding-block: 0.125rem;
+}
+
+._bottom-navigation {
+	display: flex;
+	justify-content: center;
+	margin-block-start: 1.3em;
+	margin-block-end: 1em; /* Remove if #notice is not there. */
+}
+
+._bottom-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+._bottom-navigation ul li { display: inline-block; }
