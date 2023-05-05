@@ -29,9 +29,11 @@
 }
 
 ._bottom-navigation ul {
+	display: flex;
+	gap: 1.4rem;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
 
-._bottom-navigation ul li { display: inline-block; }
+._bottom-navigation a { text-decoration: none; }
